@@ -1,0 +1,59 @@
+{
+  "name": "dropbox_ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "assert": "^1.4.1",
+    "axios": "*",
+    "chai": "^4.1.2",
+    "history": "*",
+    "mocha": "^4.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-file-download": "^0.3.5",
+    "react-redux": "*",
+    "react-router-dom": "*",
+    "react-script": "^2.0.5",
+    "react-scripts": "*",
+    "redux": "*",
+    "redux-logger": "*",
+    "redux-promise-middleware": "*",
+    "redux-thunk": "*",
+    "supertest": "^3.0.0",
+    "tether": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "system",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhattmaulik1991/dropbox_ui.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "bhattmaulik1991",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhattmaulik1991/dropbox_ui/issues"
+  },
+  "homepage": "https://github.com/bhattmaulik1991/dropbox_ui#readme"
+}

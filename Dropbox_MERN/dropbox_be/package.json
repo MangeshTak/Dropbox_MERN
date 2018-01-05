@@ -1,0 +1,35 @@
+{
+  "name": "dropbox_be",
+  "version": "1.0.0",
+  "description": "backend of dropbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "ejs": "^2.5.7",
+    "express": "^3.2.6",
+    "fs-extra": "^4.0.2",
+    "jsonwebtoken": "^8.0.1",
+    "mocha": "^4.0.1",
+    "mysql": "^2.14.1",
+    "nodemon": "*",
+    "supertest": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhattmaulik1991/dropbox_be.git"
+  },
+  "keywords": [
+    "dropbox"
+  ],
+  "author": "maulikb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhattmaulik1991/dropbox_be/issues"
+  },
+  "homepage": "https://github.com/bhattmaulik1991/dropbox_be#readme"
+}
